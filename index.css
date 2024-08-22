@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#title{
+  float: right;
+  font-style: italic;
+  font-weight: 700;
+}
+
+#summary_div {
+  position: relative;
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(5, 197, 245, 0.91);
+  overflow: hidden; /* Ensure the copy button stays within the box */
+}
+
+#Summary_heading {
+  font-family: 'Courier New', monospace;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#summary {
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+  line-height: 1.5;
+}
+
+#copyBtn {
+  float: right;
+  margin-top: 7px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#copyBtn:hover{
+  background-color: rgba(5, 197, 245, 0.91);
+}
+
+#copyBtn img {
+  width: 12px; /* Adjust as needed */
+  
+  vertical-align: middle;
+}
